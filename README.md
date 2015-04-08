@@ -1,4 +1,4 @@
-docker-images
-=============
+docker-ubuntu-phoblet
+=====================
 
-Various Dockerfile collection ready for use
+Dockerfile collection for Ubuntu Phablet development.
