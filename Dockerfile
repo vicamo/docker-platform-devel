@@ -1,4 +1,4 @@
-FROM vicamo/android-pdk:oracle-java-6
+FROM vicamo/android-pdk:trusty-oracle-java-6
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main restricted universe multiverse" > /etc/apt/sources.list.d/archive.ubuntu.com_trusty.list && \
 	echo "deb-src http://archive.ubuntu.com/ubuntu trusty main restricted universe multiverse" >> /etc/apt/sources.list.d/archive.ubuntu.com_trusty.list && \
