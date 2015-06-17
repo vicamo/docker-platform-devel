@@ -12,6 +12,7 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main restricted universe m
 	apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C2518248EEA14886 && \
 	apt-get update && \
 	apt-get install --no-install-recommends -y \
+		imagemagick \
 		libasound2-dev:i386 \
 		libesd0-dev:i386 \
 		libpulse-dev:i386 \

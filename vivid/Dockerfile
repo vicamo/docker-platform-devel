@@ -14,6 +14,7 @@ RUN echo "deb http://archive.ubuntu.com/ubuntu vivid main restricted universe mu
 	apt-get install --no-install-recommends -y \
 		cpio \
 		g++-4.8-multilib \
+		imagemagick \
 		kmod \
 		libasound2-dev:i386 \
 		libesd0-dev:i386 \
