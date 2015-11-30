@@ -1,4 +1,2 @@
-docker-ubuntu-phoblet
-=====================
-
-Dockerfile collection for Ubuntu Phablet development.
+# docker_platform-devel
+Docker images for Ubuntu Phablet platform development
