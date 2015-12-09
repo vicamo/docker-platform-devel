@@ -1,5 +1,16 @@
 FROM vicamo/android-pdk:trusty-oracle-java-6
 
+#### libc6-dev ####
+#### libreadline6-dev:i386 ####
+#### ubuntu-dev-tools ####
+#### python-markdown ####
+#### xsltproc ####
+#### schedtool ####
+#### bsdiff ####
+#### dos2unix ####
+#### android-tools-fsutils ####
+
+
 RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main restricted universe multiverse" > /etc/apt/sources.list.d/archive.ubuntu.com_trusty.list && \
 	echo "deb-src http://archive.ubuntu.com/ubuntu trusty main restricted universe multiverse" >> /etc/apt/sources.list.d/archive.ubuntu.com_trusty.list && \
 	echo "deb http://archive.ubuntu.com/ubuntu trusty-updates main restricted universe multiverse" >> /etc/apt/sources.list.d/archive.ubuntu.com_trusty.list && \
